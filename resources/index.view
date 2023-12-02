@@ -1,0 +1,8 @@
+<svg class="background">
+  <image href="cockpit.png" />
+  <text id="batteryLabel" x="15%" y="15%" class="label" />
+  <text id="myLabel"> 
+    <animate attributeName="y"  begin="click" from="50%" to="-50%" dur="2" />
+    <animate attributeName="y"  begin="click+2" from="-50%" to="50%" dur="2" />
+  </text>
+</svg>
